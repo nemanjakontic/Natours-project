@@ -52,6 +52,16 @@
         animation: moveInBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
     }
+
+    
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary
+        }
+    }
 }
 
 .btn-text {
@@ -77,4 +87,5 @@
         transform: translateY(0);
         box-shadow: 0 .5rem 1rem rgba($color-black, .2);
     }
+
 }
